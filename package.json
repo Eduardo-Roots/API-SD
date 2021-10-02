@@ -1,0 +1,30 @@
+{
+  "name": "apizona",
+  "version": "1.0.0",
+  "description": "API para estudo para a disciplina Sistemas Distribuidos",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eduardoqwerty/API-SD.git"
+  },
+  "keywords": [
+    "7777777"
+  ],
+  "author": "Eduardo Roots",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eduardoqwerty/API-SD/issues"
+  },
+  "homepage": "https://github.com/Eduardoqwerty/API-SD#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.0",
+    "nodemon": "^2.0.13"
+  }
+}
