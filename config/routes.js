@@ -49,10 +49,8 @@ routes.put('/put/:id', (req, res) => {
     const act = req.params.id
 
     let newDB = db.filter(item => {
-        if (!item[act]){
-            console.log("Err! Object has inserted before!!!")
+        if (!item[act])
             return item
-        }
     })
 
     db = newDB
